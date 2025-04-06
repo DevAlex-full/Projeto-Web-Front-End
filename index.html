@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto Cybernetico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+
+        <link rel="stylesheet" href="./src/css/estilos.css">
+
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/bg-O-Sentinela-da-Meia-Noite.png" media="(min-width: 768px)">
+                <img class="imagem" src="./src/imagens/bg-O-Sentinela-da-Meia-Noite-Mobile.png" alt="Personagem OSentineladaMeiaNoite">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">OSentineladaMeiaNoite</h2>
+                <p class="descricao">Nem totalmente humano nem máquina, esta figura enigmática aparece apenas durante a hora das bruxas digital (quando os sistemas reiniciam à meia-noite). Alguns acreditam que o Sentinela é a própria cidade ganhando forma, protegendo a fronteira entre a realidade e o mundo virtual cada vez mais dominante.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-Aria-Blackwire.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-Aria-Blackwire-mobile.png" alt="Personagem AriaBlackwire" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">AriaBlackwire</h2>
+                <p class="descricao">Uma hacker brilhante que fundiu sua consciência com um exoesqueleto de combate depois que uma megacorporação tentou assassiná-la. A energia azul de sua tecno-espada pode interromper sistemas de segurança e barreiras digitais. Ela se move entre os reinos físico e digital em busca de vingança..</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-Comandante-Zeta.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-Comandante-Zeta-mobile.png" alt="Personagem ComandanteZeta" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">ComandanteZeta</h2>
+                <p class="descricao">O último de uma força de paz de elite que protegia a cidade antes da tomada corporativa. Sua armadura contém tecnologia antiga que canaliza a rede de energia da cidade. A espada brilhante é a chave para restaurar o sistema de governança de IA independente da cidade.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-Cypher.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-Cypher-mobile.png" alt="Personagem Cypher" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Cypher</h2>
+                <p class="descricao">Um androide militar rebelde que ganhou consciência durante as Guerras Corporativas. Agora serve como vigilante em Neo Manhattan, usando sua lâmina de energia para caçar executivos corruptos que exploram a classe baixa da cidade. Seus sistemas ópticos aprimorados podem ver através de fachadas digitais e mentiras corporativas.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-Nexus-7.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-Nexus-7-mobile.png" alt="Personagem Nexus7" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Nexus7</h2>
+                <p class="descricao">Um androide militar rebelde que ganhou consciência durante as Guerras Corporativas. Agora serve como vigilante em Neo Manhattan, usando sua lâmina de energia para caçar executivos corruptos que exploram a classe baixa da cidade. Seus sistemas ópticos aprimorados podem ver através de fachadas digitais e mentiras corporativas.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao cyberstorm selecionado">
+                <img src="./src/imagens/Icone-O-Sentinela-da-Meia-Noite.png" alt="Ícone Cyberstorm">
+            </button>
+        </li>
+        <li>
+            <button class="botao codepixie">
+                <img src="./src/imagens/Icone-Aria-Blackwire.png" alt="Ícone CodePixie" />
+            </button>
+        </li>
+        <li>
+            <button class="botao hexblade">
+                <img src="./src/imagens/Icone-Comandante-Zeta.png" alt="Ícone Hexblade" />
+            </button>
+        </li>
+        <li>
+            <button class="botao neonpulse">
+                <img src="./src/imagens/Icone-Cypher.png" alt="Ícone Neonpulse" />
+            </button>
+        </li>
+        <li>
+            <button class="botao codebreaker">
+                <img src="./src/imagens/Icone-Nexus-7.png" alt="Ícone Codebreaker" />
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
